@@ -1,0 +1,46 @@
+.achievement{
+    height: 298px;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    position: relative;
+    &-main{
+        position: absolute;
+        display: flex;
+        top: 0;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+        width: 1108px;
+        gap: 0 100px;
+        padding-left: 147px;
+    }
+    &-item{
+        padding: 43px 0 53px;
+    }
+
+    &-img{
+        width: 103px;
+        height: 90px;
+        img{
+            object-fit: cover;
+        }
+    }
+
+    &-quanlity{
+        height: 41px;
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    &-desc{
+        width: 181px;
+        color: #fff;
+        opacity: 0.8;
+        font-weight: normal;
+        margin-top: 8px;
+        line-height: 17px;
+    }
+
+}
+

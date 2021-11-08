@@ -1,0 +1,99 @@
+.courses{
+    background-color:#fff;
+    
+    &-main{
+        padding: 140px 0  97px;
+    }
+
+    &-heading{
+        text-align: center;
+        font-size: 40px;
+        height: 44px;
+        color: $color1;
+        position: relative;
+    }
+
+    &-category{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        font-size:  14px;
+        padding-top: 38px;
+        left: 0;
+        right: 0;
+        font-size: 14px;
+        a{
+            font-size: 14px;
+            padding: 0 20px;
+            color: $gray;
+        }
+    }
+
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0 10px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 110px;
+    }
+    &-item{
+        height: 303px;
+        margin-bottom: 15px;
+    }
+    &-img{
+        width: 100%;
+        border-radius: 10px;
+        img{
+            object-fit: cover;
+            border-radius: inherit;
+        }
+    }
+
+    &-info{
+        background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+        text-align: left;
+        height: 73px;
+        font-size: 14px;
+        font-weight: 900;
+        color: #fff;
+        border-radius: 0 0 10px 10px;
+        display: block;
+        transform: translateY(-74px);
+        line-height: 152.34%;
+        padding: 13px 0 18px 30px;
+    }
+
+    &-type{
+        display: block;
+        height: 33px;
+        width: 70px;
+        background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+        text-align: center;
+        border-radius: 0 10px;
+        font-size: 14px;
+        color: #fff;
+        padding: 5px 0 7px;
+        transform: translateY(-367px);
+        float: right;
+    }
+
+    &-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-btn{
+        background: linear-gradient(253.58deg, $color1 1.55%, $color2 95.8%);
+        width: 160px;
+        height: 56px;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 41px;
+        border-radius: 100px;
+        border: 1px solid orange;
+        box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+     }
+}

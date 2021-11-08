@@ -1,0 +1,36 @@
+.about{
+    background-color: $gray-light;
+    padding-top: 144px;
+    &-us{
+        display: flex;
+    }
+
+    &-heading{
+        font-size: 40px;
+        line-height: 158.34%;
+        color: $color1;
+        
+    }
+
+    &-content{
+        padding: 200px 79px 0 120px;
+    }
+
+    &-desc{
+        width: 387px;
+        font-size: 14px;
+        line-height: 175.78%;
+        opacity: 0.6;
+        padding: 12px 0 24px;
+    }
+
+    &-btn{
+        border-radius: 100px;
+        border: 1px solid ;
+        width: 160px;
+        height: 56px;
+        color: #fff;
+        box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+        background: linear-gradient(253.58deg, $color1 1.55%, $color2 95.8%);
+    }
+}
